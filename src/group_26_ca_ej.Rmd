@@ -25,6 +25,8 @@ ces<-read.csv(here("data","ces3demographics.csv")) %>%  #read in the dataset
 ggplot(data = ces,
        aes(x = white, y = ces_3_0_score))+
   labs(x = "White Percent", y = "CalEnviroScreen pollution burden score") +
-  geom_hex() 
+  geom_hex() +
+  scale_fill_gradient(low = "darkorchid4", high = "magenta")+
+  theme_minimal()
 ```
 
