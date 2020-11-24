@@ -24,9 +24,11 @@ ces<-read.csv(here("data","ces3demographics.csv")) %>%  #read in the dataset
 # Create ggplot of %white vs CES3.0
 ggplot(data = ces,
        aes(x = white, y = ces_3_0_score))+
-  labs(x = "White Percent", y = "CalEnviroScreen pollution burden score") +
+  labs(x = "White Percent", y = "CalEnviroScreen pollution burden score",
+       title = "White Population Impacts on CalEnviroScreen pollution burden score") +
   geom_hex() +
-  scale_fill_gradient(low = "darkorchid4", high = "magenta")+
+  scale_fill_gradient(low = "navy", high = "orange")+
   theme_minimal()
+
 ```
 
