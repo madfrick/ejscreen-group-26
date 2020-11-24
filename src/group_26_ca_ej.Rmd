@@ -19,3 +19,10 @@ ces<-read.csv(here("data","ces3demographics.csv")) %>%  #read in the dataset
 
 ```
 
+```{r}
+# Create ggplot of %white vs CES3.0
+ggplot(data = ces,
+       aes(x = white, y = ces_3_0_score))+
+  geom_point()
+```
+
