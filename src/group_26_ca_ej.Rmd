@@ -1,0 +1,11 @@
+---
+title: "Group 26 CA pollution burden"
+author: "Maddie Frick and Jonah Seif"
+date: "11/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
