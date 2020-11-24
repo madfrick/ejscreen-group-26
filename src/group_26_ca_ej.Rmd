@@ -31,4 +31,4 @@ ggplot(data = ces,
   theme_minimal()
 
 ```
-
+In general, as the percentage of the population that is white increases, the CES 3.0 score. This score is a combination of pollution burden and population characteristics, which is higher with increased exposures and environmental effects, while taking into account sensitive populations and socioeconomic factors.
